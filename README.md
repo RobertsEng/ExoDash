@@ -11,7 +11,7 @@ Currently the project has several functions:
 
 #### makegalaxymap()
 
-This function creates a plot of the positions of stars confirmed to be host to exoplanets, and superimposes those positions on an artist rendering of the Milky Way.
+This function creates a plot of the positions of stars confirmed to be hosts to exoplanets, and superimposes those positions on an artist rendering of the Milky Way.
 
     def makegalaxymap():
       # Sets the service to be used for querying.
