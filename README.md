@@ -1,8 +1,5 @@
 ### Exoplanet Dashboard
 
-**Kevin Roberts**
-
-
 The initial goal of this project is to make a web-deployable dashboard displaying key exoplanet-related information, including the approximate positions of systems containing **confirmed exoplanets** over an artist-rendering of the Milky Way, keeping in mind the practical limitations of such a mapping. The ultimate intention for this process involves the dashboard regularly (perhaps weekly or daily) importing data from the *NASA Exoplanet Archive* into a dataframe containing celestial coordinates for the host stars of confirmed exoplanets. In order to enable superimposition of exoplanets on a 2D galaxy map via the *MWPlot library*, the program will then use the SkyCoord package from astropy to convert equatorial coordinates for each system into galactocentric coordinates.
 
 This project uses the mw_plot library by Henry Leung and the images contained therein (MW_bg_annotate.jpg and MW_bg_unannotate.jpg) by **NASA/JPL-Caltech/R. Hurt (SSC/Caltech)**.
